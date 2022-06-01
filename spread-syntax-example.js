@@ -1,4 +1,5 @@
 
 var a = [1, 2];
-a.push([1, 2, 3]);
+var b= [1,2,3];
+a = [...b];
 console.log(a);
